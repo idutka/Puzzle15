@@ -1,0 +1,127 @@
+body{
+    font:20px Arial;
+    margin: 0;
+    background: url('background.png');
+}
+
+* {
+    border: medium none;
+    font-size: 100%;
+    text-shadow:0 0 1px rgba(0,0,200,0.5);
+}
+
+.main{
+    background:rgba(200, 200, 200, 0.1);;
+    width:410px;
+    padding:10px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #000011;
+}
+
+.main_admin{
+    background:rgba(200, 200, 200, 0.5);;
+    padding: 20px;
+    box-shadow: 0 0 10px #000011;
+}
+
+.nambers{
+    height:30px;
+    padding:5px 10px;
+    width:390px;
+    background:#666666;
+    border-radius:10px 10px 0 0
+}
+.canva {
+    border:5px solid #222222;
+    cursor:pointer;
+    background: url('texture.jpg');
+}
+
+.f-l{
+    float:left;
+}
+.f-r{
+    float:right;
+}
+
+.records {
+    padding:10px;
+    width:390px;
+    background:#888;
+    border-radius:0 0 10px 10px;
+    text-align:center
+}
+table *{
+    white-space: nowrap;
+    text-align: center;
+    border-top: 1px solid #666666;
+    padding: 0 5px;
+}
+
+span{
+margin:0 5px;
+font:bold 30px Arial;
+color:#CCCCFF;
+}
+
+#reg {
+    left: 50%;
+    top: 45%;
+    margin-left: -170px;
+    margin-top: -170px;
+    opacity: 0.9;
+    position: fixed;
+    width: 340px;
+    z-index: 9;
+    display: none;
+    color:#AAAAAA;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 18px #000000;
+}
+#reg div{
+    background: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    height:320px;
+}
+#reg input {
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#name,#mail {
+    width: 300px;
+}
+input, textarea {
+    color: #333333;
+}
+#fonr {
+    background: #000000;
+    opacity: 0.4;
+    filter: progid : DXImageTransform.Microsoft.Alpha ( opacity = 70 );
+    bottom: 0pt;
+    height: 100%;
+    left: 0pt;
+    position: fixed;
+    right: 0pt;
+    top: 0pt;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.button:HOVER {
+    box-shadow: 0 0 3px #66F;
+}
+
+.addthemes input{
+    border:defoult;
+    font-size: 80%;
+    float:right;
+    width:80%;
+}
